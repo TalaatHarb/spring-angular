@@ -63,7 +63,7 @@
 							<outputDirectory>${project.build.directory}/classes/resources/</outputDirectory>
 							<resources>
 								<resource>
-									<directory>${project.parent.basedir}/angular/src/main/web/dist/web/</directory>
+									<directory>${project.parent.basedir}/angular/src/main/web/dist/web-app/</directory>
 								</resource>
 							</resources>
 						</configuration>
