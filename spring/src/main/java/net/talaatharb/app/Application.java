@@ -16,7 +16,10 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @EnableAutoConfiguration
 public class Application extends SpringBootServletInitializer {
 
-	
+	/**
+	 * Application entry point
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 
