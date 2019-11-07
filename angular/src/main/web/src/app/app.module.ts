@@ -6,10 +6,14 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TestPageComponent } from './test-page/test-page.component';
+import { MainPageComponent } from './main-page/main-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TestPageComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
