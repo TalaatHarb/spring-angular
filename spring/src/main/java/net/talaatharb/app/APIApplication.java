@@ -1,7 +1,8 @@
+package net.talaatharb.app;
 /**
  * 
  */
-package net.talaatharb.app;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -14,15 +15,14 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  */
 @SpringBootApplication
 @EnableAutoConfiguration
-public class Application extends SpringBootServletInitializer {
+public class APIApplication extends SpringBootServletInitializer {
 
 	/**
 	 * Application entry point
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
-
+		SpringApplication.run(APIApplication.class, args);
 	}
 
 }
