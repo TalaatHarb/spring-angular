@@ -21,7 +21,7 @@ public class WebApplication extends SpringBootServletInitializer {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		SpringApplication.run(APIApplication.class, args);
+		SpringApplication.run(WebApplication.class, args);
 	}
 
 }
