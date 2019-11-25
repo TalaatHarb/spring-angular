@@ -15,7 +15,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  */
 @SpringBootApplication
 @EnableAutoConfiguration
-public class APIApplication extends SpringBootServletInitializer {
+public class APIApplication extends SpringBootServletInitializer{
 
 	/**
 	 * Application entry point

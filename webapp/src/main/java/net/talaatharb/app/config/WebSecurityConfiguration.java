@@ -20,7 +20,7 @@ public class WebSecurityConfiguration extends APISecurityConfiguration {
 	protected void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests() // Configuration for authorization of requests
 				.antMatchers("/api/**").authenticated() // API end points
-				.antMatchers("/index").permitAll() // UI framework end point(Angular)
+				.antMatchers("/index", "/style*").permitAll() // UI framework end point(Angular)
 				.and().formLogin() // Form Login
 				.loginPage("/login") // To force Login through UI framework(Angular)
 				.permitAll(); // To Allow access to login page
