@@ -21,6 +21,6 @@ public class WebSecurityConfiguration extends APISecurityConfiguration {
 		http.authorizeRequests()
 		.antMatchers("/api/**").authenticated()
 		.antMatchers("/index").permitAll()
-		.and().formLogin().permitAll();
+		.and().formLogin().loginPage("/login").permitAll();
 	}
 }

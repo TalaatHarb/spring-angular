@@ -17,7 +17,7 @@ public class HomeController {
 	 * Mapping for the /home end point
 	 * @return The contents of the page index.html
 	 */
-	@GetMapping(path = {"/home", "/index", "/site/**"})
+	@GetMapping(path = {"/home", "/index", "/site/**", "/login"})
 	public String home() {
 		return "forward:/index.html";
 	}
