@@ -20,7 +20,6 @@
 
 				<configuration>
 					<workingDirectory>src/main/web/</workingDirectory>
-					<nodeVersion>v13.0.1</nodeVersion>
 				</configuration>
 
 				<executions>				
